@@ -4,22 +4,7 @@ import { SidebarService } from '../../services/sidebar.service';
 
 @Component({
   selector: 'gifs-search-box',
-  template: `<div class="d-flex">
-  <img class="" src="./assets/menu.svg" alt="Menu" width="32" height="32" (click)="hidden()">
-
-    <div class="d-flex col-11">
-      <input type="text"
-   class="form-control ms-3 "
-   placeholder="Buscar Gifs..."
-   (keyup.enter)="searchTag()"
-   #txtTagInput>
-      <button class="btn btn-outline-dark ms-2" type="submit" (click)="searchTag()">Buscar</button>
-</div>
-
-
-  </div>
-
-`
+  templateUrl: './search-box.component.html'
 })
 
 export class SearchBoxComponent {
