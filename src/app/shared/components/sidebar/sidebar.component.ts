@@ -8,7 +8,7 @@ import { SidebarService } from '../../../gifs/services/sidebar.service';
   styleUrl: './sidebar.component.css'
 })
 export class SidebarComponent implements OnInit {
-isSidebarOpen: boolean = true;
+isSidebarOpen: boolean = false;
 
   @ViewChild('btnTag')
   public tagBtn!:ElementRef<HTMLButtonElement>;

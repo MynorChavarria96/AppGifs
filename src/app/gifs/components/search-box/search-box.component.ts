@@ -5,7 +5,7 @@ import { SidebarService } from '../../services/sidebar.service';
 @Component({
   selector: 'gifs-search-box',
   template: `<div class="d-flex">
-  <img class="" src="/assets/menu.svg" alt="Menu" width="32" height="32" (click)="hidden()">
+  <img class="" src="./assets/menu.svg" alt="Menu" width="32" height="32" (click)="hidden()">
 
     <div class="d-flex col-11">
       <input type="text"
